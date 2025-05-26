@@ -542,7 +542,7 @@ async def upload(bot: Client, m: Message):
                             if os.path.exists(f'{name}.jpg'):
                                 os.remove(f'{name}.jpg')         
 
-                 """       
+                      
                 elif "youtu" in url: 
                     try:
                         await bot.send_photo(chat_id=m.chat.id, photo=photo, caption=cyt)
