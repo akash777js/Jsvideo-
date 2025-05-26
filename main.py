@@ -61,9 +61,9 @@ def is_authorized(user_id: int) -> bool:
 
 bot = Client(
     "bot",
-    api_id=API_ID 27483529,
-    api_hash=API_HASH "c3e9ea6320b861ad11e37c5260288bb3",
-    bot_token=BOT_TOKEN "7928261524:AAH4dJHU6LwsL3SfQwxc5aeuPHqyQ2XS6h0")
+    api_id="API_ID" 27483529,
+    api_hash="API_HASH" "c3e9ea6320b861ad11e37c5260288bb3",
+    bot_token="BOT_TOKEN" "7928261524:AAH4dJHU6LwsL3SfQwxc5aeuPHqyQ2XS6h0")
 
 # Sudo command to add/remove sudo users
 @bot.on_message(filters.command("sudo"))
